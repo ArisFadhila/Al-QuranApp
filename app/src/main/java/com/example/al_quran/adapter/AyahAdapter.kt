@@ -1,3 +1,5 @@
+package com.example.al_quran.adapter
+
 import android.media.MediaPlayer
 import android.view.LayoutInflater
 import android.view.View

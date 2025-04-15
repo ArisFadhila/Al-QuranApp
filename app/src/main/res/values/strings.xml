@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Al-Quran</string>
+    <string name="play_audio">Play audio</string>
+
 </resources>
