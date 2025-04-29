@@ -1,4 +1,4 @@
-package com.example.al_quran.ui.theme
+package com.example.alquranapp.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

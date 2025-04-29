@@ -1,4 +1,4 @@
-package com.example.al_quran
+package com.example.alquranapp
 
 import org.junit.Test
 

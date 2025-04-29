@@ -1,11 +1,11 @@
-package com.example.al_quran.adapter
+package com.example.alquranapp.adapter
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.al_quran.R
-import com.example.al_quran.Surah
+import com.example.alquranapp.R
+import com.example.alquranapp.Surah
 
 class SurahAdapter(
     private val onItemClick: (Surah) -> Unit

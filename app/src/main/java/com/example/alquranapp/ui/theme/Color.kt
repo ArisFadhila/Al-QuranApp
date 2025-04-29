@@ -1,4 +1,4 @@
-package com.example.al_quran.ui.theme
+package com.example.alquranapp.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "500646914184",
+    "project_id": "al-quranapp-76983",
+    "storage_bucket": "al-quranapp-76983.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500646914184:android:68df55c493d38218c0d73d",
+        "android_client_info": {
+          "package_name": "com.example.alquranapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500646914184-0tn06ot0p9b5se2ss2sb1lvlmfumglng.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alquranapp",
+            "certificate_hash": "77713ad6487bbd1b81db31bcfd1e12ee47a91c84"
+          }
+        },
+        {
+          "client_id": "500646914184-53694sunqq6h8s497f97o5a03ndrgs1v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiHX0eKwZurzNTIKNH6s6G1No9tSTRu7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500646914184-53694sunqq6h8s497f97o5a03ndrgs1v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

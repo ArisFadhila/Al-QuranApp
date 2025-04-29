@@ -1,4 +1,4 @@
-package com.example.al_quran
+package com.example.alquranapp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

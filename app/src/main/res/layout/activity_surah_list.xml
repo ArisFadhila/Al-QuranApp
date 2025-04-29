@@ -19,7 +19,7 @@
         android:elevation="4dp"
         app:navigationIcon="?android:attr/textSelectHandle" />
 
-    <!-- Search Bar dalam CardView -->
+    <!-- Search Bar -->
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -34,6 +34,42 @@
             android:queryHint="Cari Surah..."
             android:background="@android:color/transparent" />
     </androidx.cardview.widget.CardView>
+
+    <!-- Profil Section -->
+    <LinearLayout
+        android:id="@+id/profileSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:background="#1E1E1E">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Pengguna"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="email@contoh.com"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
 
     <!-- List Surah -->
     <androidx.recyclerview.widget.RecyclerView

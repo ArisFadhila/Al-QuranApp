@@ -1,4 +1,4 @@
-package com.example.al_quran.adapter
+package com.example.alquranapp.adapter
 
 import android.media.MediaPlayer
 import android.view.LayoutInflater
@@ -9,8 +9,8 @@ import android.widget.TextView
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.example.al_quran.Ayah
-import com.example.al_quran.R
+import com.example.alquranapp.Ayah
+import com.example.alquranapp.R
 
 class AyahAdapter : ListAdapter<Ayah, AyahAdapter.AyahViewHolder>(AyahDiffCallback()) {
 

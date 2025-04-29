@@ -1,6 +1,6 @@
-package com.example.al_quran.api
-import com.example.al_quran.SurahDetailsResponse
-import com.example.al_quran.SurahListResponse
+package com.example.alquranapp.api
+import com.example.alquranapp.SurahDetailsResponse
+import com.example.alquranapp.SurahListResponse
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Path

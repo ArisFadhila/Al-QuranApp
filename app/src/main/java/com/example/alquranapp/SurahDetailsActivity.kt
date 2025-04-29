@@ -1,14 +1,14 @@
-package com.example.al_quran
+package com.example.alquranapp
 
-import com.example.al_quran.adapter.AyahAdapter
+import com.example.alquranapp.adapter.AyahAdapter
 import android.os.Bundle
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.al_quran.api.QuranApi
-import com.example.al_quran.api.RetrofitClient
+import com.example.alquranapp.api.QuranApi
+import com.example.alquranapp.api.RetrofitClient
 import kotlinx.coroutines.*
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

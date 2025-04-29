@@ -2,14 +2,15 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
+    id("com.google.gms.google-services")
 }
 
 android {
-    namespace = "com.example.al_quran"
+    namespace = "com.example.alquranapp"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.al_quran"
+        applicationId = "com.example.alquranapp"
         minSdk = 31
         targetSdk = 35
         versionCode = 1
@@ -63,4 +64,9 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation ("androidx.cardview:cardview:1.0.0")
     implementation ("com.google.android.material:material:1.11.0")
+    implementation(platform("com.google.firebase:firebase-bom:33.13.0"))
+    implementation("com.google.firebase:firebase-analytics")
+    implementation("com.google.firebase:firebase-auth-ktx:22.3.1")
+    implementation("com.google.android.gms:play-services-auth:20.7.0")
+
 }

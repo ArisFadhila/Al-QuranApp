@@ -1,4 +1,4 @@
-package com.example.al_quran
+package com.example.alquranapp
 
 data class SurahListResponse(
     val data: List<Surah>
